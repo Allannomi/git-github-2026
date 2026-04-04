@@ -30,3 +30,5 @@ git status -> mostra o status do trabalho (de cada arquivo)
 git add nome_arquivo -> adiciona arquivo para ser commitado
 git commit -m "frase" -> faz commit do que estava para ser commitado
 git log -> mostra todos os commit e quem alterou (historico de todos os commit)
+git add . -> pasta atual
+git add * -> tudo
