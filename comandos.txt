@@ -24,3 +24,7 @@ rm -rf (arquivo): remove arquivo
 
 
 COMANDOS GIT
+
+git init .: inicia o repositorio
+git add: adicionar 
+git commit -m "mensagem"
