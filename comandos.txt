@@ -32,3 +32,13 @@ git commit -m "frase" -> faz commit do que estava para ser commitado
 git log -> mostra todos os commit e quem alterou (historico de todos os commit)
 git add . -> pasta atual
 git add * -> tudo
+
+## FLUXO DE TRABALHO
+
+1. criar o diretorio do projeto
+2. iniciar o git dentro do diretorio criado (git init .)
+3. editar ou criar arquivo
+4. git status
+5. git add <nome do arquivo>
+6. git commit -m "mensagem"
+7. volta para o passo 3
