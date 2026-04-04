@@ -1,0 +1,26 @@
+LS: pasta inicial home
+ls -a: mostra arquivos ocultas
+----------------------------------------------
+
+cd OneDrive/Desktop: entra na area de trabalho
+cd ..: volta
+----------------------------------------------
+
+pwd: caminho absoluto de onde estou 
+(
+$ pwd
+/c/Users/Allan/OneDrive/Desktop
+)
+----------------------------------------------
+
+mkdir: criar pasta
+----------------------------------------------
+
+cat (arquivo): mostra oq tem dentro do arquivo
+----------------------------------------------
+
+rm -rf (arquivo): remove arquivo
+----------------------------------------------
+
+
+COMANDOS GIT
