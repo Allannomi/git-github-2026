@@ -25,6 +25,7 @@ rm -rf (arquivo): remove arquivo
 
 COMANDOS GIT
 
-git init .: inicia o repositorio
-git add: adicionar 
-git commit -m "mensagem"
+git init . -> cria um repo git na pasta atual
+git status -> mostra o status do trabalho (de cada arquivo)
+git add nome_arquivo -> adiciona arquivo para ser commitado
+git commit -m "frase" -> faz commit do que estava para ser commitado
