@@ -33,6 +33,7 @@ git log -> mostra todos os commit e quem alterou (historico de todos os commit)
 git add . -> pasta atual
 git add * -> tudo
 git diff <arquivo> -> mostra as alterações
+git reset -> volta o status do arquivo
 
 ## FLUXO DE TRABALHO
 
@@ -44,3 +45,4 @@ git diff <arquivo> -> mostra as alterações
 7. git status
 8. git commit -m "mensagem"
 9. git status
+
