@@ -236,4 +236,3 @@ git branch -D <branch>
 * Escreva mensagens de commit descritivas
 * Evite usar `rm -rf` sem ter certeza
 * uma linha adicionada de teste
-
