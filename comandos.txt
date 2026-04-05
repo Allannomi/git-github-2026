@@ -34,6 +34,8 @@ git add . -> pasta atual
 git add * -> tudo
 git diff <arquivo> -> mostra as alterações
 git reset -> volta o status do arquivo
+git checkout -b -> cria uma ramificação (uma copia da main, secundaria, etc...)
+git branch -> mostra todas ramificaçõs
 
 ## FLUXO DE TRABALHO
 
