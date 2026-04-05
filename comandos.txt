@@ -1,53 +1,235 @@
-LS: pasta inicial home
-ls -a: mostra arquivos ocultas
-----------------------------------------------
+========================================
+COMANDOS BÁSICOS DE TERMINAL (LINUX/GIT BASH)
+========================================
 
-cd OneDrive/Desktop: entra na area de trabalho
-cd ..: volta
-----------------------------------------------
+1. ls
+   → listar arquivos da pasta atual
 
-pwd: caminho absoluto de onde estou 
-(
-$ pwd
-/c/Users/Allan/OneDrive/Desktop
-)
-----------------------------------------------
+2. ls -a
+   → listar arquivos (incluindo ocultos)
 
-mkdir: criar pasta
-----------------------------------------------
+----------------------------------------
 
-cat (arquivo): mostra oq tem dentro do arquivo
-----------------------------------------------
+3. cd OneDrive/Desktop
+   → entrar na área de trabalho
 
-rm -rf (arquivo): remove arquivo
-----------------------------------------------
+4. cd ..
+   → voltar uma pasta
+
+----------------------------------------
+
+5. pwd
+   → mostrar o caminho absoluto atual
+
+   Exemplo:
+   $ pwd
+   /c/Users/Allan/OneDrive/Desktop
+
+----------------------------------------
+
+6. mkdir <nome_pasta>
+   → criar uma nova pasta
+
+----------------------------------------
+
+7. cat <arquivo>
+   → mostrar o conteúdo do arquivo
+
+----------------------------------------
+
+8. rm -rf <arquivo_ou_pasta>
+   → remover arquivo ou pasta
 
 
+========================================
 COMANDOS GIT
+========================================
 
-git init . -> cria um repo git na pasta atual
-git status -> mostra o status do trabalho (de cada arquivo)
-git add nome_arquivo -> adiciona arquivo para ser commitado
-git commit -m "frase" -> faz commit do que estava para ser commitado
-git log -> mostra todos os commit e quem alterou (historico de todos os commit)
-git add . -> pasta atual
-git add * -> tudo
-git diff <arquivo> -> mostra as alterações
-git reset -> volta o status do arquivo
-git checkout -b (branch) -> cria uma ramificação (uma copia da main, secundaria, etc...)
-git branch -D (branch) -> deleta
-git branch -> mostra todas ramificaçõs
-git checkout (branch) -> entra dentro dela
-git merge (branch) -> trás da branch e leva pra que voce quer (tras alteração, ent se vc alterar, voce tem que da murge dnovo)
+1. git init .
+   → iniciar repositório na pasta atual
 
-## FLUXO DE TRABALHO
+2. git status
+   → mostrar estado dos arquivos
 
-1. criar o diretorio do projeto
-2. iniciar o git dentro do diretorio criado (git init .)
-3. editar ou criar arquivo
+3. git add <arquivo>
+   → adicionar arquivo para commit
+
+4. git add .
+   → adicionar tudo da pasta atual
+
+5. git add *
+   → adicionar todos os arquivos
+
+6. git commit -m "mensagem"
+   → criar um commit
+
+7. git log
+   → mostrar histórico de commits
+
+8. git diff <arquivo>
+   → mostrar alterações feitas
+
+9. git reset
+   → remover arquivos do stage
+
+----------------------------------------
+
+BRANCHES
+
+10. git checkout -b <branch>
+    → criar e acessar uma nova branch
+
+11. git branch
+    → listar branches
+
+12. git checkout <branch>
+    → trocar de branch
+
+13. git merge <branch>
+    → unir alterações de outra branch
+
+14. git branch -D <branch>
+    → deletar branch
+
+
+========================================
+FLUXO DE TRABALHO INICIAL (LOCAL)
+========================================
+
+1. criar diretório do projeto
+   → preparar ambiente do projeto
+
+2. git init .
+   → iniciar controle de versão
+
+3. criar ou editar arquivos
+   → desenvolver código
+
 4. git status
-5. git add <nome do arquivo>
-7. git status
-8. git commit -m "mensagem"
-9. git status
+   → verificar alterações
 
+5. git add <arquivo>
+   → preparar arquivos para commit
+
+6. git status
+   → confirmar arquivos adicionados
+
+7. git commit -m "mensagem"
+   → salvar alterações no histórico
+
+8. git status
+   → verificar estado final
+
+
+========================================
+FLUXO DE TRABALHO GIT (LOCAL COM BRANCH)
+========================================
+
+1. git checkout -b <nova_branch>
+   → criar nova branch
+
+2. criar ou editar arquivos
+   → realizar alterações
+
+3. git status
+   → verificar alterações
+
+4. git add <arquivos>
+   → adicionar arquivos
+
+5. git status
+   → confirmar stage
+
+6. git commit -m "mensagem"
+   → salvar alterações
+
+7. git checkout main
+   → voltar para branch principal
+
+8. git merge <nova_branch>
+   → unir alterações na main
+
+
+========================================
+GIT + GITHUB (PROJETO PRÓPRIO / EMPRESA)
+========================================
+
+1. git clone <repo_url>
+   → copiar repositório remoto
+
+2. git checkout -b <nova_branch>
+   → criar nova branch
+
+3. criar ou editar arquivos
+   → desenvolver alterações
+
+4. git status
+   → verificar mudanças
+
+5. git add <arquivos>
+   → adicionar arquivos
+
+6. git status
+   → confirmar stage
+
+7. git commit -m "mensagem"
+   → salvar alterações
+
+8. git push origin <nova_branch>
+   → enviar branch para o GitHub
+
+9. abrir Pull Request no GitHub (para main)
+   → solicitar merge
+
+10. git push origin --delete <nova_branch>
+    → deletar branch remota
+
+11. git checkout main
+    → voltar para main
+
+12. git branch -D <nova_branch>
+    → deletar branch local
+
+
+========================================
+GIT + GITHUB (OPEN SOURCE)
+========================================
+
+1. fazer fork do projeto no GitHub
+   → criar cópia do projeto
+
+2. git clone <repo_fork_url>
+   → clonar seu fork
+
+3. git checkout -b <nova_branch>
+   → criar nova branch
+
+4. criar ou editar arquivos
+   → realizar alterações
+
+5. git status
+   → verificar mudanças
+
+6. git add <arquivos>
+   → adicionar arquivos
+
+7. git status
+   → confirmar stage
+
+8. git commit -m "mensagem"
+   → salvar alterações
+
+9. git push origin <nova_branch>
+   → enviar alterações
+
+10. abrir Pull Request (fork → projeto original)
+    → contribuir com o projeto
+
+11. git push origin --delete <nova_branch>
+    → deletar branch remota
+
+12. git checkout main
+    → voltar para main
+
+13. git branch -D <nova_branch>
+    → deletar branch local
