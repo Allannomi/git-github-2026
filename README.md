@@ -1,6 +1,10 @@
 # 📘 Guia de Comandos Git e Terminal
 
 ---
+ 
+[padrões de commit](https://medium.com/linkapi-solutions/conventional-commits-pattern-3778d1a1e657)
+
+[site do teo](https://cursos.teomewhy.org/trilhas)
 
 ## 🖥️ Comandos Básicos de Terminal (Linux / Git Bash)
 
@@ -235,4 +239,4 @@ git branch -D <branch>
 * Use nomes claros nas branches (`feature/login`, `fix/bug-x`)
 * Escreva mensagens de commit descritivas
 * Evite usar `rm -rf` sem ter certeza
-.
+* uma linha adicionada de teste
