@@ -235,3 +235,5 @@ git branch -D <branch>
 * Use nomes claros nas branches (`feature/login`, `fix/bug-x`)
 * Escreva mensagens de commit descritivas
 * Evite usar `rm -rf` sem ter certeza
+* uma linha adicionada de teste
+
