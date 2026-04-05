@@ -1,1 +1,0 @@
-contem comandos seguncarios de git
