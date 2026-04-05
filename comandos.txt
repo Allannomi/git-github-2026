@@ -34,7 +34,8 @@ git add . -> pasta atual
 git add * -> tudo
 git diff <arquivo> -> mostra as alterações
 git reset -> volta o status do arquivo
-git checkout -b -> cria uma ramificação (uma copia da main, secundaria, etc...)
+git checkout -b (branch) -> cria uma ramificação (uma copia da main, secundaria, etc...)
+git branch -D (branch) -> deleta
 git branch -> mostra todas ramificaçõs
 git checkout (branch) -> entra dentro dela
 git merge (branch) -> trás da branch e leva pra que voce quer (tras alteração, ent se vc alterar, voce tem que da murge dnovo)
